@@ -1,0 +1,7 @@
+.carousel-fondo {
+    background-image: url(/src/images/baner\ comida.jpg);
+    background-position: center center;
+    background-size: contain;
+    height: auto;
+    width: auto;
+}
