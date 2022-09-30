@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
 
-body{
+body {
 
-    font-family:  'Gill Sans MT';
+    font-family: 'Gill Sans MT';
     margin: 0;
 }
 
-a{
+a {
     text-decoration: none;
     color: rgb(241, 165, 37);
     justify-content: center;
-    
+
 }
 
 a h2 {
@@ -19,7 +19,7 @@ a h2 {
 }
 
 
-header{
+header {
 
     display: flex;
     min-height: 80px;
@@ -30,7 +30,7 @@ header{
 
 }
 
-.Logo{
+.Logo {
 
     display: flex;
     align-items: flex-end;
@@ -44,34 +44,34 @@ header{
     margin-right: 10px;
 }
 
-nav a{
+nav a {
 
-    font-weight: 200;
-    padding: 20px;
+    font-weight: 200 !important;
+    padding: 20px !important;
 }
 
-nav a:hover{
+nav a:hover {
 
-    color: white;
+    color: white !important;
 }
 
-@media (max-width:700px){
+@media (max-width:700px) {
 
-    header{
-        flex-direction: column;
+    header {
+        flex-direction: column !important;
     }
 
-    nav{
+    nav {
 
-        padding:10px 0px ;
+        padding: 10px 0px !important;
     }
 }
 
-.banner{
-    
+.banner {
+
     height: 300px;
-    
-    background-image:url(../img/Banner2.webp);
+
+    background-image: url(../img/Banner2.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -80,15 +80,12 @@ nav a:hover{
     padding: 0px;
     min-height: 70px;
     display: flex
-    
-    
-
 }
 
 
-.capa   {
-    
-    
+.capa {
+
+
     margin: 0;
     padding: 0;
     width: 100%;
@@ -107,7 +104,7 @@ nav a:hover{
     font-size: 40px;
 }
 
-.capa p{
+.capa p {
 
     font-size: 20px;
 }
