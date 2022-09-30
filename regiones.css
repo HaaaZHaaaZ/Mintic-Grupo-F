@@ -1,0 +1,275 @@
+
+
+main {
+    justify-content: space-evenly;
+    justify-items: center;
+    display: inline-block;
+    margin: 2rem 10%;
+    width: 60vw;
+    padding: 50px 15% 50px 15%;
+    background-color: rgb(44, 44, 44);
+}
+.Colombia_card {
+    position:relative;
+    overflow: hidden;
+    display: inline-block;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 10px;
+    background-color: transparent;
+    border-radius: 5%;
+    width: 100%;
+    padding: 4px 4px;
+    max-width: 300px;
+}
+.TXT-Colombia--Card{
+    width: 100%;
+    color: #ffc65f;
+    max-width: 300px;
+    min-width: 50px;
+    margin: 0 0 10px;
+}
+.TXTyBOTON-Colombia--Card{
+    width: 100%;
+    max-width: 300px;
+    min-width: 40px;
+
+}
+ol{
+    padding-inline-end: 10px;
+    padding-inline-start: 10px;
+}
+.BOTON-Colombia--Card{
+    cursor: pointer;
+    background-color: blue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(252, 255, 70);
+    border: solid rgb(255, 64, 64);
+    border-radius: 10%;
+    margin: 0 8em;
+}
+.Bandera-Colombia--Card img {
+    border-radius: 5%;
+    width: 100%;
+    max-width: 300px;
+    min-width: 50px;
+}
+.Colombia_card span{
+    position: absolute;
+    display: block;
+}
+#span1{
+    top: 0;
+    left:-100%;
+    width: 100%;
+    height: 2px;
+    background:linear-gradient(90deg,transparent,red,blue,yellow,yellow,yellow);
+    animation: span1 1.2s linear infinite;
+}
+@keyframes span1 {
+    0%{
+        left: -100%;
+    }
+    100%{
+        left:100%;
+    }
+}
+#span3{
+    bottom: 0;
+    right:-100%;
+    width: 100%;
+    height: 2px;
+    background:linear-gradient(270deg,transparent,red,blue,yellow,yellow,yellow);
+    animation: span3 1.2s linear infinite;
+}
+@keyframes span3 {
+    0%{
+        right: -100%;
+    }
+    100%{
+        right:100%;
+    }
+}
+#span2{
+    top: 100%;
+    left:0;
+    width: 2px;
+    height: 100%;
+    background:linear-gradient(0deg,transparent,red,blue,yellow,yellow,yellow);
+    animation: span2 1.2s linear infinite;
+}
+@keyframes span2 {
+    0%{
+        top: 100%;
+    }
+    100%{
+        top:-100%;
+    }
+}
+#span4{
+    bottom: 100%;
+    right:0;
+    width: 2px;
+    height: 100%;
+    background:linear-gradient(180deg,transparent,red,blue,yellow,yellow,yellow);
+    animation: span4 1.2s linear infinite;
+}
+@keyframes span4 {
+    0%{
+        bottom: 100%;
+    }
+    100%{
+        bottom:-100%;
+    }
+}
+.Japon_card {
+    position:relative;
+    overflow: hidden;
+    display: inline-block;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 10px;
+    background-color: transparent;
+    border-radius: 5%;
+    width: 100%;
+    padding: 4px 4px;
+    max-width: 300px;
+}
+.TXT-Japon--Card{
+    width: 100%;
+    color: #ffe8e8;
+    max-width: 300px;
+    min-width: 50px;
+    margin: 0 0 10px;
+}
+.TXTyBOTON-Japon--Card{
+    width: 100%;
+    max-width: 300px;
+    min-width: 40px;
+
+}
+.BOTON-Japon--Card{
+    cursor: pointer;
+    background-color: rgb(255, 224, 224);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(255, 32, 32);
+    border: solid rgb(255, 64, 64);
+    border-radius: 10%;
+    margin: 0 8em;
+}
+.Bandera-Japon--Card img {
+    border-radius: 5%;
+    width: 100%;
+    max-width: 300px;
+    min-width: 50px;
+}
+.Japon_card span{
+    position: absolute;
+    display: block;
+}
+#span5{
+    top: 0;
+    left:-100%;
+    width: 100%;
+    height: 2px;
+    background:linear-gradient(90deg,transparent,white,red,white,white);
+    animation: span1 1s linear infinite;
+}
+#span7{
+    bottom: 0;
+    right:-100%;
+    width: 100%;
+    height: 2px;
+    background:linear-gradient(270deg,transparent,white,red,white,white);
+    animation: span3 1s linear infinite;
+}
+#span6{
+    top: 100%;
+    left:0;
+    width: 2px;
+    height: 100%;
+    background:linear-gradient(0deg,transparent,white,red,white,white);
+    animation: span2 1s linear infinite;
+}
+#span8{
+    bottom: 100%;
+    right:0;
+    width: 2px;
+    height: 100%;
+    background:linear-gradient(180deg,transparent,white,red,white,white);
+    animation: span4 1s linear infinite;
+}
+.Italia_card {
+    position:relative;
+    overflow: hidden;
+    display: inline-block;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 10px;
+    background-color: transparent;
+    border-radius: 5%;
+    width: 100%;
+    padding: 4px 4px;
+    max-width: 300px;
+}
+.TXT-Italia--Card{
+    width: 100%;
+    color: #9eca9b;
+    max-width: 300px;
+    min-width: 50px;
+    margin: 0 0 10px;
+}
+.TXTyBOTON-Italia--Card{
+    width: 100%;
+    max-width: 300px;
+    min-width: 40px;
+
+}
+.BOTON-Italia--Card{
+    cursor: pointer;
+    background-color: rgb(255, 224, 224);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(10, 107, 7);
+    border: solid rgb(255, 0, 0);
+    border-radius: 10%;
+    margin: 0 8em;
+}
+.Bandera-Italia--Card img {
+    border-radius: 5%;
+    width: 100%;
+    max-width: 300px;
+    min-width: 50px;
+}
+.Italia_card span{
+    position: absolute;
+    display: block;
+}
+#span9{
+    top: 0;
+    left:-100%;
+    width: 100%;
+    height: 2px;
+    background:linear-gradient(90deg,transparent,red,white,white,green,green);
+    animation: span1 1s linear infinite;
+}
+#span10{
+    bottom: 0;
+    right:-100%;
+    width: 100%;
+    height: 2px;
+    background:linear-gradient(270deg,transparent,red,white,white,green,green);
+    animation: span3 1s linear infinite;
+}
+#span11{
+    top: 100%;
+    left:0;
+    width: 2px;
+    height: 100%;
+    background:linear-gradient(0deg,transparent,red,white,white,green,green);
+    animation: span2 1s linear infinite;
+}
+#span12{
+    bottom: 100%;
+    right:0;
+    width: 2px;
+    height: 100%;
+    background:linear-gradient(180deg,transparent,red,white,white,green,green);
+    animation: span4 1s linear infinite;
+}
