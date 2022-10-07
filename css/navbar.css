@@ -34,6 +34,9 @@ header {
 
     display: flex;
     align-items: flex-end;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .Logo img {
@@ -71,10 +74,10 @@ nav a:hover {
 
     height: 300px;
 
-    background-image: url(../img/Banner2.webp);
-    background-position: center;
+    background-image: url(../img/hamburgesa-banner.jpg);
+    background-position: left;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     align-content: center;
     align-items: center;
     padding: 0px;
