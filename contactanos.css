@@ -1,0 +1,48 @@
+body {
+  background-color: #1a2739;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+img {
+  width: 50px;
+  height: 50px;
+}
+
+.telefono {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #ebf1f6;
+}
+
+.logo img{
+    width: 200px;
+    height: 200px;
+    
+}
+.logo{
+    display: flex;
+flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.contenedor{
+    margin: 60px;
+    background-color: white;
+}
+
+.columna-izq{
+    margin: 10px 10px 10px 60px;
+}
+.columna-der{
+    margin: 10px 30px;
+}
