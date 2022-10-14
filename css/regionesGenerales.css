@@ -1,0 +1,72 @@
+div{
+    display:flex;
+}
+.Titulo_Colombia{
+    margin: 30px;
+    background: linear-gradient(20deg,yellow 20%,blue 30%,red 45%);
+    color:transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-size: 70px;
+}
+.Titulo_Japon{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 70px;
+    margin: 30px;
+    background: linear-gradient(20deg,white 25%,red 30%, white 50%);
+    color:transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+.Titulo_Italia{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 70px;
+    margin: 30px;
+    background: linear-gradient(20deg,rgb(0, 114, 19) 10%,rgb(255, 255, 255) 25%, rgb(228, 0, 0) 45%);
+    color:transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+section {
+    width: 90%;
+    padding: 80px 0;
+    margin: 0 auto;
+    max-width: 1200px;
+    display:flex;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+img{
+    min-width: 200px;
+    flex: 350px; 
+    max-width: 250px;
+    max-height: 250px;
+}
+button{
+    align-self: flex-start;
+    height:200px;
+    margin: 10px;
+    max-width: 80px;
+    border-radius: 10%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+main{
+    background-color: rgb(37, 37, 37);
+}
+.mosaico button{
+    border: solid blue;
+    border-width: 3px;
+    background: yellow;
+    color: red;
+}
+.mosaic button{
+    border-width: 3px;
+    background: rgb(255, 255, 255);
+    color: red;
+}
+.mosaice button{
+    border: solid green;
+    border-width: 5px;
+    background: rgb(255, 255, 255);
+    color: red;
+}
