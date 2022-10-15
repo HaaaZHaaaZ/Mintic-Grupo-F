@@ -1,0 +1,164 @@
+/* div{
+    display:flex;
+} */
+.Titulo_Colombia {
+    /* margin: 30px; */
+    background-color: #f3ff00;
+    background-image: linear-gradient(62deg, #f3ff00 37%, #0038ff 46%, #ff0000 56%);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-size: 70px;
+    text-align: center;
+}
+
+.Titulo_Japon {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 70px;
+    /* margin: 30px; */
+    background-color: #ffffff;
+    background-image: linear-gradient(270deg, #ffffff 41%, #ff0000 54%, #ffffff 67%);
+
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-align: center;
+}
+
+.Titulo_Italia {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 70px;
+    /* margin: 30px; */
+    background-color: #0baa00;
+    background-image: linear-gradient(45deg, #0baa00 37%, #ffffff 50%, #ff0000 62%);
+
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-align: center;
+}
+
+section {
+    width: 90%;
+    padding: 80px 0;
+    margin: 0 auto;
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+
+.mosaico img {
+    min-width: 200px;
+    flex: 350px;
+    max-width: 250px;
+    max-height: 250px;
+}
+
+button {
+    /* align-self: flex-start; */
+    height: 200px;
+    margin: 10px;
+    max-width: 80px;
+    border-radius: 10%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+main {
+    background-color: rgb(37, 37, 37);
+}
+
+.mosaico button {
+    border: solid blue;
+    border-width: 3px;
+    background: yellow;
+    color: red;
+}
+
+.mosaic button {
+    border-width: 3px;
+    background: rgb(255, 255, 255);
+    color: red;
+}
+
+.mosaice button {
+    border: solid green;
+    border-width: 5px;
+    background: rgb(255, 255, 255);
+    color: red;
+}
+
+.mosaico {
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+
+@media (max-width: 1000px) {
+    .mosaico {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media (max-width: 768px) {
+        .mosaico {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+        }
+    }
+}
+
+.producto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.producto img {
+    border-radius: 30px;
+    transform: scale(1);
+    transition: transform 1s;
+}
+
+.producto img:hover {
+    transform: scale(1.1);
+
+}
+
+.link:visited {
+    color: white;
+
+}
+
+.link:active {
+    color: white;
+
+}
+
+.btn_compra {
+    text-transform: uppercase;
+    margin: 2rem auto;
+    padding: 1rem 1.5rem;
+    border-radius: 60px;
+    background-color: black;
+    color: yellow;
+    font-weight: bold;
+    font-size: larger;
+    border-style: outset;
+    -webkit-box-shadow: 0px 0px 0px -10px rgba(245, 233, 0, 0.94);
+    -moz-box-shadow: 0px 0px 0px -10px rgba(245, 233, 0, 0.94);
+    box-shadow: 0px 0px 0px -10px rgba(245, 233, 0, 0.94);
+    transition: box-shadow 0.5s;
+    text-align: center;
+
+
+}
+
+.btn_compra:hover {
+    -webkit-box-shadow: 0px 0px 54px -10px rgba(245, 233, 0, 0.94);
+    -moz-box-shadow: 0px 0px 54px -10px rgba(245, 233, 0, 0.94);
+    box-shadow: 0px 0px 54px -10px rgba(245, 233, 0, 0.94);
+}
