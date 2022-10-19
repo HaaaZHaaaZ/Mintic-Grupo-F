@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+
+body {
+
+    font-family: 'Gill Sans MT';
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(241, 165, 37);
+    justify-content: center;
+
+}
+
+a h2 {
+
+    font-size: 30px;
+}
+
+
+header {
+
+    display: flex;
+    min-height: 80px;
+    background-color: rgb(0, 0, 0);
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+
+}
+
+.Logo {
+
+    display: flex;
+    align-items: flex-end;
+}
+
+.Logo img {
+
+    height: 80px;
+    border-radius: 90px;
+    width: 80px;
+    margin-right: 10px;
+}
+
+nav a {
+
+    font-weight: 200;
+    padding: 20px;
+}
+
+nav a:hover {
+
+    color: white;
+}
+
+@media (max-width:700px) {
+
+    header {
+        flex-direction: column;
+    }
+
+    nav {
+
+        padding: 10px 0px;
+    }
+}
+
+.banner {
+
+    height: 300px;
+
+    background-image: url(../img/Banner2.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    align-content: center;
+    align-items: center;
+    padding: 0px;
+    min-height: 70px;
+    display: flex
+}
+
+
+.capa {
+
+
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    color: aliceblue;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.capa h1 {
+
+    font-size: 40px;
+}
+
+.capa p {
+
+    font-size: 20px;
+}
+
+
+.pa {
+    display: flex;
+    min-height: 80px;
+
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    align-content: center;
+
+}
+
+.pa img {
+
+    height: 300px;
+    border-radius: 200px;
+    width: 300px;
+    margin-right: 100px;
+
+
+
+}
+
+p {
+
+    display: flex;
+    min-height: 80px;
+
+
+    align-items: center;
+    padding: 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+
+}
